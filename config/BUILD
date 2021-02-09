@@ -6,8 +6,6 @@ The availlable environments:
     - production
 """
 
-package(default_visibility = ["//visibility:public"])
-
 config_setting(
     name = "develop",
     values = {
@@ -21,6 +19,7 @@ config_setting(
     values = {
         "define": "environment=staging",
     },
+    visibility = ["//visibility:public"],
 )
 
 config_setting(
@@ -28,4 +27,5 @@ config_setting(
     values = {
         "define": "environment=production",
     },
+    visibility = ["//visibility:public"],
 )

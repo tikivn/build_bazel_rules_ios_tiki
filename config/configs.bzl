@@ -8,8 +8,6 @@ load(
     "SWIFT_RELEASE_COMPILER_FLAGS",
 )
 
-package(default_visibility = ["//visibility:public"])
-
 def swift_library_compiler_flags():
     """Return Swift compiler flags associated with an environment
     """

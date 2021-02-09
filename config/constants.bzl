@@ -2,8 +2,6 @@
 This module contains shared constants.
 """
 
-package(default_visibility = ["//visibility:public"])
-
 SWIFT_VERSION = "5"
 
 MINIMUM_IOS_VERSION = "9.0"
